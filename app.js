@@ -20,7 +20,7 @@ form.addEventListener('submit', async (e) => {
     e.preventDefault();
     let search = form.elements.query.value;
     const config = {params: {q: search}}
-    const res =  await axios.get(`http://api.tvmaze.com/search/shows`, config);
+    const res =  await axios.get(`https://api.tvmaze.com/search/shows`, config);
     // const item = res.data;
     // for(let result of item) {
     //     console.log(result.show.id);
