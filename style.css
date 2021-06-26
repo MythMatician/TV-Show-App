@@ -72,8 +72,9 @@ button:hover {
 
 .style {
     background-color: #3f37c9;
+    width: 20vw;
     padding: 20px;
-    margin: 0 5px;
+    margin: 10px;
     border-radius: 5px;
 }
 
